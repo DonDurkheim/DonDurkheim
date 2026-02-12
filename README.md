@@ -20,14 +20,6 @@
 
 ###
 
-<h2 align="left">the reality</h2>
-
-###
-
-<p align="left">people like to lie.<br><br>it's a war of all against all.<br><br>but if you're building something real, i'm here.<br><br>i'll make sure it doesn't fall apart.<br><br>and i'll mock you the entire time.</p>
-
-###
-
 <h2 align="left">in the toolbox</h2>
 
 ###
@@ -93,6 +85,14 @@
 ###
 
 <p align="left">and many more… (not gon' list html, obviously 💀)</p>
+
+###
+
+<h2 align="left">the reality</h2>
+
+###
+
+<p align="left">people like to lie.<br><br>it's a war of all against all.<br><br>but if you're building something real, i'm here.<br><br>i'll make sure it doesn't fall apart.<br><br>and i'll mock you the entire time.</p>
 
 ###
 
