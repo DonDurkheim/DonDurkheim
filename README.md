@@ -37,7 +37,6 @@ because the problem is more interesting than the solution.
 🎧 <b>Phibram</b>: call-center intelligence from transcription.<br>
 🩺 <b>Mamora AI</b>: community health and livelihoods data platform.<br>
 📋 <b>Visko</b>: AI form generation and AI-assisted research interviews.<br>
-🍽️ <b>WasteLess</b>: predictive food inventory for kitchens.<br>
 🧭 <b>HeyRwanda</b>: the tourism companion app for Rwanda.
 </p>
 
