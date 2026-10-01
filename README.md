@@ -36,7 +36,7 @@ because the problem is more interesting than the solution.
 📞 <b>Sonus</b>: AI outbound voice calling for enterprises.<br>
 🎧 <b>Phibram</b>: call-center intelligence from transcription.<br>
 🩺 <b>Mamora AI</b>: community health and livelihoods data platform.<br>
-📋 <b>Visko</b>: AI form generation and AI-assisted research interviews.<br>
+📋 <b>Visko</b>: voice-native field research data collection interviews.<br>
 🧭 <b>HeyRwanda</b>: the tourism companion app for Rwanda.
 </p>
 
