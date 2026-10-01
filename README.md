@@ -1,14 +1,20 @@
 <div align="center">
-  <img height="200" src="https://i.pinimg.com/1200x/34/38/54/34385401fa4e19abc9bcf438e21272f3.jpg"  />
+  <img height="200" src="https://i.pinimg.com/1200x/34/38/54/34385401fa4e19abc9bcf438e21272f3.jpg" alt="Don Durkheim" />
 </div>
 
 ###
 
-<h2 align="left">Hi 👋, I'm Don!</h2>
+<h2 align="left">Hi 👋, I'm Don Durkheim.</h2>
 
 ###
 
-<p align="left">ai engineer. fully-stuck developer  💀.<br><br>i spend 48 hours automating a 1-hour task.<br><br>because the problem is more interesting than the solution.</p>
+<p align="left">
+<b>Co-founder & President of <a href="https://entelon.co">Entelon</a></b>, an AI and automation company based in Kigali, Rwanda.<br>
+Student at <b>Rwanda Coding Academy</b>. Software lead on <b>Ladybug FRC</b>.<br><br>
+ai engineer. fully-stuck developer 💀.<br><br>
+i spend 48 hours automating a 1-hour task.<br><br>
+because the problem is more interesting than the solution.
+</p>
 
 ###
 
@@ -17,6 +23,34 @@
 ###
 
 <p align="left">i build ai pipelines that don't fall apart.<br><br>i write code that prints $ bills.<br><br>i mock people who think perfection matters.</p>
+
+###
+
+<h2 align="left">what i'm building at entelon</h2>
+
+###
+
+<p align="left">
+🎙️ <b>Kinyarwanda speech</b>: ASR and TTS for a language big tech skipped.<br>
+💸 <b>eKofi</b>: voice-native Kinyarwanda mobile money and banking.<br>
+📞 <b>Sonus</b>: AI outbound voice calling for enterprises.<br>
+🎧 <b>Phibram</b>: call-center intelligence from transcription.<br>
+🩺 <b>Mamora AI</b>: community health and livelihoods data platform.<br>
+📋 <b>Visko</b>: AI form generation and AI-assisted research interviews.<br>
+🍽️ <b>WasteLess</b>: predictive food inventory for kitchens.<br>
+🧭 <b>HeyRwanda</b>: the tourism companion app for Rwanda.
+</p>
+
+###
+
+<h2 align="left">off the keyboard</h2>
+
+###
+
+<p align="left">
+🤖 FIRST robotics since FLL and FTC. Co-organized Ladybug FRC and run its software department: robot simulation and CAD in Fusion 360. Going international this season.<br>
+🏆 2024 FLL National Robotics Competition finalist, Intare Arena.
+</p>
 
 ###
 
@@ -96,11 +130,20 @@
 
 ###
 
-<h2 align="left">contact.exe</h2>
+<h2 align="left">find me</h2>
 
 ###
 
 <div align="left">
+  <a href="https://YOUR-DOMAIN" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Website&logo=googlechrome&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="website"  />
+  </a>
+  <a href="https://entelon.co" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Entelon&logo=rocket&label=&color=4B32C3&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Entelon"  />
+  </a>
+  <a href="https://www.linkedin.com/in/don-durkheim-78453a21b/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin"  />
+  </a>
   <a href="https://api.whatsapp.com/send?phone=250795587873" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
   </a>
@@ -114,6 +157,6 @@
 
 ###
 
-<p align="left">© 2026 Don Durkheim — "Veni Vidi Vici"  - Julius Caesar</p>
+<p align="left">© 2026 Don Durkheim — Kigali, Rwanda — "Veni Vidi Vici" - Julius Caesar</p>
 
 ###
