@@ -134,22 +134,19 @@ because the problem is more interesting than the solution.
 ###
 
 <div align="left">
-  <a href="https://YOUR-DOMAIN" target="_blank">
+  <a href="https://dondurkheim.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Website&logo=googlechrome&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="website"  />
   </a>
   <a href="https://entelon.co" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Entelon&logo=rocket&label=&color=4B32C3&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Entelon"  />
   </a>
-  <a href="https://www.linkedin.com/in/don-durkheim-78453a21b/" target="_blank">
+  <a href="https://www.linkedin.com/in/dondurkheim/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin"  />
   </a>
   <a href="https://api.whatsapp.com/send?phone=250795587873" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
   </a>
-  <a href="https://t.me/dondurkheim" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="telegram logo"  />
-  </a>
-  <a href="mailto:dondurkheim13@gmail.com" target="_blank">
+  <a href="mailto:don@entelonai.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
 </div>
