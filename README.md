@@ -12,8 +12,7 @@
 ###
 
 <p align="left">
-<b>Co-founder & President of <a href="https://entelon.co">Entelon</a></b>, an AI and automation company based in Kigali, Rwanda.<br>
-Student at <b>Rwanda Coding Academy</b>. Software lead on <b>Ladybug FRC</b>.<br><br>
+<b>Co-founder & President of <a href="https://entelon.co">Entelon</a></b>, an AI and automation company based in Kigali, Rwanda.<br><br>
 ai engineer. fully-stuck developer 💀.<br><br>
 i spend 48 hours automating a 1-hour task.<br><br>
 because the problem is more interesting than the solution.
