@@ -1,11 +1,5 @@
-"""Builds dark_mode.svg and light_mode.svg: ASCII portrait + neofetch-style info panel.
-
-Stats come from the GitHub GraphQL API; set GITHUB_TOKEN (or GH_TOKEN).
-"""
+"""Builds dark_mode.svg and light_mode.svg: ASCII portrait + neofetch-style info panel."""
 import datetime as dt
-import json
-import os
-import urllib.request
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -30,55 +24,6 @@ THEMES = {
 }
 
 
-def gql(query, variables):
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=json.dumps({"query": query, "variables": variables}).encode(),
-        headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"},
-    )
-    with urllib.request.urlopen(req) as r:
-        body = json.load(r)
-    if "errors" in body:
-        raise RuntimeError(body["errors"])
-    return body["data"]
-
-
-def stats():
-    user = gql(
-        """query($login: String!) {
-          user(login: $login) {
-            followers { totalCount }
-            repositories(ownerAffiliations: OWNER, privacy: PUBLIC, first: 100) {
-              totalCount nodes { stargazerCount }
-            }
-            contributionsCollection { contributionYears }
-          }
-        }""",
-        {"login": USER},
-    )["user"]
-    contribs = 0
-    for year in user["contributionsCollection"]["contributionYears"]:
-        c = gql(
-            """query($login: String!, $from: DateTime!, $to: DateTime!) {
-              user(login: $login) {
-                contributionsCollection(from: $from, to: $to) {
-                  contributionCalendar { totalContributions }
-                }
-              }
-            }""",
-            {"login": USER, "from": f"{year}-01-01T00:00:00Z", "to": f"{year}-12-31T23:59:59Z"},
-        )["user"]["contributionsCollection"]
-        contribs += c["contributionCalendar"]["totalContributions"]
-    repos = user["repositories"]
-    return {
-        "repos": repos["totalCount"],
-        "stars": sum(n["stargazerCount"] for n in repos["nodes"]),
-        "followers": user["followers"]["totalCount"],
-        "contribs": contribs,
-    }
-
-
 def uptime(today):
     y, m, d = today.year - BORN.year, today.month - BORN.month, today.day - BORN.day
     if d < 0:
@@ -92,7 +37,7 @@ def uptime(today):
 
 
 # Everything under "Building @ Entelon" is sourced from entelon.co and dondurkheim.com.
-def rows(s, today):
+def rows(today):
     return [
         ("title", "don@durkheim"),
         ("rule",),
@@ -123,10 +68,6 @@ def rows(s, today):
         ("kv", "Company", "entelon.co"),
         ("kv", "LinkedIn", "dondurkheim"),
         ("kv", "Instagram", "don_durkheim"),
-        ("blank",),
-        ("sec", "GitHub Stats"),
-        ("pair", "Repos", s["repos"], "Stars", s["stars"]),
-        ("pair", "Contributions", s["contribs"], "Followers", s["followers"]),
     ]
 
 
@@ -135,7 +76,6 @@ def dots(n):
 
 
 def kv(key, value, width):
-    value = f"{value:,}" if isinstance(value, int) else str(value)
     fill = width - len(key) - len(value) - 3
     return f'<tspan class="k">{escape(key)}</tspan>:{dots(fill)}<tspan class="v">{escape(value)}</tspan>'
 
@@ -153,11 +93,6 @@ def render_row(row):
         return f'<tspan class="h">{escape(title)}</tspan><tspan class="d">{"-" * (INFO_W - len(title))}</tspan>'
     if kind == "kv":
         return '<tspan class="d">. </tspan>' + kv(row[1], row[2], INFO_W - 2)
-    if kind == "pair":
-        _, k1, v1, k2, v2 = row
-        left = 32
-        return ('<tspan class="d">. </tspan>' + kv(k1, v1, left - 2) + '<tspan class="d"> | </tspan>'
-                + kv(k2, v2, INFO_W - left - 3))
     raise ValueError(kind)
 
 
@@ -191,12 +126,10 @@ def svg(theme, art, info):
 
 
 def main():
-    s = stats()
-    info = rows(s, dt.date.today())
+    info = rows(dt.date.today())
     for theme in THEMES:
         art = (HERE / f"ascii_{theme}.txt").read_text(encoding="utf-8").splitlines()
         (ROOT / f"{theme}_mode.svg").write_text(svg(theme, art, info), encoding="utf-8")
-    print(s)
 
 
 if __name__ == "__main__":
