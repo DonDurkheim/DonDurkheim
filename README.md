@@ -34,13 +34,13 @@ because the problem is more interesting than the solution.
 ###
 
 <p align="left">
-🎙️ <b>Kinyarwanda speech</b>: ASR and TTS for a language big tech skipped.<br>
-💸 <b>eKofi</b>: voice-native Kinyarwanda mobile money and banking.<br>
-📞 <b>Sonus</b>: AI outbound voice calling for enterprises.<br>
-🎧 <b>Phibram</b>: call-center intelligence from transcription.<br>
-🩺 <b>Mamora AI</b>: community health and livelihoods data platform.<br>
-📋 <b>Visko</b>: voice-native field research data collection interviews.<br>
-🧭 <b>HeyRwanda</b>: the tourism companion app for Rwanda.
+🎙️ <b>Kinyarwanda speech</b>: a VITS text-to-speech model trained on ~500 hours of Kinyarwanda audio.<br>
+🧠 <b>Kinyarwanda LLM</b>: co-developing a large language model for Kinyarwanda.<br>
+🎧 <b>Phibram</b>: turns call-center and hotline conversations into a clear picture of service quality.<br>
+🩺 <b>Mamora AI</b>: AI-powered community wellbeing platform for HDI Rwanda that helps detect disease outbreaks early.<br>
+📋 <b>Visko</b>: takes the paperwork out of field research. Teams just talk through the questionnaires they already use.<br>
+📝 <b>Klok AI</b>: reads handwritten exam answers and suggests marks step by step, with the teacher in charge of every grade.<br>
+🧭 <b>HeyRwanda</b>: a companion for experiencing Rwanda, from choosing where to go to finding your way and paying.
 </p>
 
 ###
@@ -149,7 +149,7 @@ because the problem is more interesting than the solution.
   <a href="https://api.whatsapp.com/send?phone=250795587873" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
   </a>
-  <a href="mailto:don@entelonai.com" target="_blank">
+  <a href="mailto:doncdurkheim@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
 </div>
