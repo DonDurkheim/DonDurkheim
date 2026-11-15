@@ -44,13 +44,17 @@ because the problem is more interesting than the solution.
 
 ###
 
-<h2 align="left">off the keyboard</h2>
+<h2 align="left">a dream in motion</h2>
 
 ###
 
 <p align="left">
-🤖 FIRST robotics since FLL and FTC. Co-organized Ladybug FRC and run its software department: robot simulation and CAD in Fusion 360. Going international this season.<br>
-🏆 2024 FLL National Robotics Competition finalist, Intare Arena.
+they call me <b>motion</b>. because i'm a dream in motion.<br><br>
+🥁 brass drumming.<br>
+📜 reading philosophy.<br>
+🍽️ group dinners. people with diverse thoughts, same spirit.<br>
+🎻 classical music moves me.<br>
+⛪ the cathedral effect works on me.
 </p>
 
 ###
