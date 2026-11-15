@@ -1,5 +1,8 @@
 <div align="center">
-  <img height="200" src="https://i.pinimg.com/1200x/34/38/54/34385401fa4e19abc9bcf438e21272f3.jpg" alt="Don Durkheim" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+    <img alt="Don Durkheim" src="light_mode.svg">
+  </picture>
 </div>
 
 ###
