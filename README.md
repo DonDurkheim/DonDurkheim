@@ -12,6 +12,7 @@
 ###
 
 <p align="left">
+they call me <b>motion</b>. because i'm a dream in motion.<br><br>
 <b>Co-founder & President of <a href="https://entelon.co">Entelon</a></b>, an AI and automation company based in Kigali, Rwanda.<br><br>
 ai engineer. fully-stuck developer 💀.<br><br>
 i spend 48 hours automating a 1-hour task.<br><br>
@@ -44,12 +45,11 @@ because the problem is more interesting than the solution.
 
 ###
 
-<h2 align="left">a dream in motion</h2>
+<h2 align="left">off the keyboard</h2>
 
 ###
 
 <p align="left">
-they call me <b>motion</b>. because i'm a dream in motion.<br><br>
 🥁 brass drumming.<br>
 📜 reading philosophy.<br>
 🍽️ group dinners. people with diverse thoughts, same spirit.<br>
